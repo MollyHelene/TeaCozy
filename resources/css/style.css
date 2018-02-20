@@ -66,7 +66,7 @@ text-decoration: underline;
 
     /* -- Mission Section -- */
 
-.mission {
+.mission-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -78,12 +78,13 @@ text-decoration: underline;
   background-image: url(../images/img-mission-background.jpg);
 }
 
-.mission-content {
+.mission-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  height: auto;
   background-color: black;
   padding: 0px;
   width: 1200px;
@@ -93,6 +94,7 @@ h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: auto;
   padding: 0px;
 }
 
@@ -100,5 +102,6 @@ h4 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: auto;
   padding: 0px;
 }
