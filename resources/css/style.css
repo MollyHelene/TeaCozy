@@ -8,7 +8,6 @@ body {
 }
 
 /* -- HEADER SECTION-- */
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +21,7 @@ body {
   border-bottom: 1px solid seashell;
   background: solid;
   background-color: black;
+  top: 0px;
 }
 
 .logo {
@@ -30,14 +30,16 @@ body {
   align-items: center;
   flex-direction: row
   color: seashell;
+  height: 50px;
 }
 
-.nav {
+.header-nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: space-between;
   padding-right: 15px;
+  top: 0px;
 }
 
 .nav-item {
@@ -51,25 +53,23 @@ text-decoration: underline;
 }
 
 /* -- MAIN CONTENT SECTION --*/
-
 .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    z-index: 1;
-    width: 100%;
-    margin-top: 10px;
-    margin-right: 0px;
-    z-index: 1;
-    padding-bottom: 50px;
-    padding-right: 0px;
-    overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  z-index: 1;
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 0px;
+  z-index: 1;
+  padding-bottom: 50px;
+  padding-right: 0px;
+  overflow: scroll;
 }
 
-    /* -- Mission Section -- */
-
+/* -- Mission Section -- */
 #mission {
   display: flex;
   flex-direction: row;
@@ -79,6 +79,7 @@ text-decoration: underline;
   width: 1200px;
   padding-top: 90px;
   padding-right: 0px;
+  margin-top: 100px;
   margin-right: 0px;
   background-image: url(../images/img-mission-background.jpg);
 }
@@ -123,13 +124,12 @@ h4 {
   padding: 10px;
 }
 
-   /* -- Store Section --*/
-
+/* -- Store Section --*/
 #store {
   width: 1000px;
   background-color: green;
   margin: 50px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .flex-container-items {
@@ -144,10 +144,10 @@ h4 {
 .items {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   width: 1000px;
-  height: 700px;
+  height: 600px;
   flex-wrap: wrap;
   background-color: purple;
 }
@@ -163,6 +163,7 @@ h4 {
   width: 300px;
   height: 200px;
   margin: 10px;
+  background-size: contain;
 }
 
 .rum-content {
@@ -176,6 +177,7 @@ h4 {
   width: 300px;
   height: 200px;
   margin: 10px;
+  background-size: contain;
 }
 
 .donut-content {
@@ -189,6 +191,7 @@ h4 {
   width: 300px;
   height: 200px;
   margin: 10px;
+  background-size: contain;
 }
 
 .myrtle-content {
@@ -202,6 +205,7 @@ h4 {
   width: 300px;
   height: 200px;
   margin: 10px;
+  background-size: contain;
 }
 
 .bedford-content {
@@ -215,4 +219,7 @@ h4 {
   width: 300px;
   height: 200px;
   margin: 10px;
+  background-size: contain;
 }
+
+/* -- Location Section --*/
