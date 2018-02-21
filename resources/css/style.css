@@ -58,7 +58,6 @@ text-decoration: underline;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: blue;
   z-index: 1;
   width: 100%;
   margin-top: 10px;
@@ -112,7 +111,8 @@ h2 {
   flex-wrap: wrap;
   height: auto;
   margin: 0px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 h4 {
@@ -127,7 +127,6 @@ h4 {
 /* -- Store Section --*/
 #store {
   width: 1000px;
-  background-color: green;
   margin: 50px;
   padding-top: 30px;
 }
@@ -149,7 +148,6 @@ h4 {
   width: 1000px;
   height: 600px;
   flex-wrap: wrap;
-  background-color: purple;
 }
 
 .berry-content {
@@ -162,7 +160,7 @@ h4 {
   background-image: url(../images/img-berryblitz.jpg);
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 15px;
   background-size: contain;
 }
 
@@ -176,7 +174,7 @@ h4 {
   background-image: url(../images/img-spiced-rum.jpg);
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 15px;
   background-size: contain;
 }
 
@@ -190,7 +188,7 @@ h4 {
   background-image: url(../images/img-donut.jpg);
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 15px;
   background-size: contain;
 }
 
@@ -204,8 +202,8 @@ h4 {
   background-image: url(../images/img-myrtle-ave.jpg);
   width: 300px;
   height: 200px;
-  margin: 10px;
-  background-size: contain;
+  margin: 15px;
+  background-size: cover;
 }
 
 .bedford-content {
@@ -218,8 +216,54 @@ h4 {
   background-image: url(../images/img-bedford-bizarre.jpg);
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 15px;
   background-size: contain;
 }
 
 /* -- Location Section --*/
+#location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  padding-bottom: 150px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url(../images/img-locations-background.jpg);
+
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 980px;
+  background-position: center;
+}
+
+.location-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+.contact-info {
+  display: block;
+  height: 200px;
+  padding: 20px;
+}
+
+.copyright {
+  display: block;
+  padding-left: 20px;
+  align-self: flex-start;
+}
